@@ -10,7 +10,7 @@
 
     // configuration =================
 
-    mongoose.connect('mongodb://edwardkm:kkm@modulus@jello.modulusmongo.net:27017/esu8mOje');     // connect to mongoDB database on modulus.io
+    //mongoose.connect('mongodb://edwardkm:kkm@modulus@jello.modulusmongo.net:27017/esu8mOje');     // connect to mongoDB database on modulus.io
     //mongoose.connect('mongodb://localhost/tests');
     app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
     app.use(morgan('dev'));                                         // log every request to the console
